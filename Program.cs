@@ -3,9 +3,9 @@ class Car
   //Attributes go here
   string colour;
 
-  //Constructor to make a new object of class Car..
+  //Constructor to make a new object of class Car TODO fix.
   public Car(string aColour){
-    colour = aColour;
+    colour = "No colour assigned";
   }
 
   //Main runs automatically when the Program is run
@@ -19,4 +19,5 @@ class Car
     Console.WriteLine(myObj.colour);
     Console.WriteLine(myObj2.colour);
   }
+
 }
