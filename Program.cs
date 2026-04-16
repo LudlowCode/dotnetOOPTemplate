@@ -1,7 +1,7 @@
 class Car 
 {
   //Attributes go here
-  string colour;
+  private string colour;
 
   //Constructor to make a new object of class Car TODO fix.
   public Car(string aColour){
@@ -9,15 +9,15 @@ class Car
   }
 
   //Main runs automatically when the Program is run
-  static void Main(string[] args)
+  public static void Main(string[] args)
   {
     //Calling the constructor of the Car class to make a new Car object
-    Car myObj = new Car("Black");
-    Car myObj2 = new Car("Yellow");
+    Car car1 = new Car("Black");
+    Car car2 = new Car("Yellow");
 
     //Printing an attribute
-    Console.WriteLine(myObj.colour);
-    Console.WriteLine(myObj2.colour);
+    Console.WriteLine(car1.colour);
+    Console.WriteLine(car2.colour);
   }
 
 }
